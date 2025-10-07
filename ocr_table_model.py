@@ -1,13 +1,3 @@
-# ocr_table_model.py
-# Mini OCR "model": learn a table template from sample images, then parse many images consistently.
-# Works great when all screenshots share the same layout.
-#
-# Dependencies:
-#   pip install opencv-python pillow pytesseract numpy
-#
-# On Windows, install Tesseract (UB Mannheim build recommended):
-#   winget install -e --id UB-Mannheim.Tesseract-OCR
-# Or use the official installer and ensure tesseract.exe is accessible.
 
 import os
 import json
