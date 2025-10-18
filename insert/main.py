@@ -15,6 +15,11 @@ AGENTS = {
         "cwd": os.path.join(BASE_DIR, "agent2"),
         "cmd": [sys.executable, "main.py"],
     },
+    "3": {
+        "name": "Insert Agent 3 (AutoHotkey Runner)",
+        "cwd": os.path.join(BASE_DIR, "agent3"),
+        "cmd": [sys.executable, "agent3_runner.py"],
+    },
 }
 
 
